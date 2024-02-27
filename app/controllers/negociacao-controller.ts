@@ -2,9 +2,9 @@ import { Negociacao } from "../models/negociacao.js"
 
 export class NegociacaoController
 {
-    private inputData
-    private inputQuantidade
-    private inputValor
+    private inputData: HTMLInputElement
+    private inputQuantidade: HTMLInputElement
+    private inputValor: HTMLInputElement
 
     constructor()
     {
